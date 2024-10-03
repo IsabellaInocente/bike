@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap&#39');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    block-size: 100px;
+}
+
+nav img{
+inline-size: 70px;
+border-radius: 25px;
+}
+
+.botao{
+    gap: 15px;
+    display: flex;
+    height: 50px;
+    padding: 20px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+.botao img {
+    display: flex;
+    block-size: 20px;
+    inline-size: 20px;
+}
+
+.inicio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 45px;
+
+
+}
+
+h1{
+    font-size: 2.5rem;
+    color: #fff;
+    margin: 20px ;
+    
+    
+}
+
+h2{
+    font-size: 2.5rem;
+    color: black;
+}
+
+
+.carrosel {
+    
+    margin: 20px auto;
+    text-align: center;
+}
+
+.carrosel h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.posts-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    margin: 10px;
+}
+
+
+.card img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.card p {
+    font-size: 0.7rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #1f863e;
+    color: #fff;
+    padding: 10px 70px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}   
+
+span{
+    width: 20%;
+}
+
+.antigo{
+    text-decoration: line-through;
+}
+
